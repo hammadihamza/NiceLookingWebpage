@@ -1,0 +1,30 @@
+html{
+    background: url(mike-palmowski-zQ4Kc9NRV1I-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+}
+.tit{
+    position: fixed; /* or absolute */
+    top: 25%;
+    left: 5%;
+}
+::selection{
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    opacity: 0.5;
+}
+.rest{
+    display:flex;
+    justify-content: space-between;
+}
+#myform{
+display: flex;
+}
